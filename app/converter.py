@@ -6,7 +6,7 @@ import keras_cv
 
 MEDIA_FOLDER = "media"
 
-async def converter(text: str):
+async def text_to_image_converte(text: str):
     # Загружаем модель Stable Diffusion
     model = keras_cv.models.StableDiffusion(img_width=512, img_height=512)
 
